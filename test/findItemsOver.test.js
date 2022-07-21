@@ -1,4 +1,4 @@
-var itemList2 = [
+let itemList2 = [
     {name : 'apples', qty : 10},
     {name : 'pears', qty : 19},
     {name : 'bananas', qty : 17},

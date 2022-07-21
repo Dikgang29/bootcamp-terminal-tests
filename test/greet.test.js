@@ -11,6 +11,6 @@ describe('The Greet function', function(){
         assert.equal('Error, Please enter a name', greet(''));
     });
     it('Should end an error message if a number is passed/called instead of a name', function(){
-        assert.equal('Hello, Dikgang', greet('Dikgang'));
+        assert.equal('Error, Enter a name not a number!', greet(5));
     });
 });
